@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# **Project 7: InstagramReact**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The objective with this project was to have a contact with ReactJS technology by adapting a previous project to React's way of writing apps plus a bonus. A more interactive and WebApp-like page.
 
-## Available Scripts
+## **Exercised Contents**:
 
-In the project directory, you can run:
+-   SASS to substitute CSS
+-   Responsiveness
+-   React props
+-   React Hook (useState)
 
-### `npm start`
+## **Results**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It is a simple project, much simpler than others we made so far, but it was really nice to go back and see how much I learned up to this point. We have interactive buttons to like and save post, count of likes that is updated accordingly, possibility to change image and username.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![GIFs coming soon]()
 
-### `npm test`
+To show the result, the application was posted on [Coming soon]()! You can browse it both on pc and mobile.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **How To Run**:
 
-### `npm run build`
+-   Clone repository
+-   Open index.html in your browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Comments**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It wasn't my first project with ReactJS although it's the first time we've used it in the Driven bootcamp. I used the experience gained so far to evaluate some previous projects and it was really fun to see how I understand React so much better now, just understanding javascript in a much deeper way:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Good organization of the code, with the App divided into several components
+-   Use of variables and SASS for better code organization
 
-### `npm run eject`
+## Built with:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/domingosmiguel/
