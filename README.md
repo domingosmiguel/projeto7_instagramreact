@@ -4,8 +4,7 @@ The objective with this project was to have a contact with ReactJS technology by
 
 ## **Exercised Contents**:
 
--   SASS to substitute CSS
--   Responsiveness
+-   Destructuring assignment
 -   React props
 -   React Hook (useState)
 
