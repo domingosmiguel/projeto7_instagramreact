@@ -345,6 +345,7 @@ main {
         "new-comment";
 
     & > img {
+        cursor: pointer;
         max-width: 100%;
         max-height: 100%;
     }
@@ -364,6 +365,7 @@ div.video {
     height: auto;
 
     & > video {
+        cursor: pointer;
         position: absolute;
         top: 0%;
         left: 0%;

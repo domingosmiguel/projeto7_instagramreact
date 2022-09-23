@@ -48,7 +48,12 @@ function RenderPost(props) {
                 </div>
                 <IonIcon icon={ellipsisHorizontal}></IonIcon>
             </div>
-            <RenderMedia type={postType} source={postSrc} alternative={postAlt} />
+            <RenderMedia
+                type={postType}
+                source={postSrc}
+                alternative={postAlt}
+                handleHeartClick={handleHeartClick}
+            />
             <div className="post-icons">
                 <div className="post-icons-left">
                     {like ? (

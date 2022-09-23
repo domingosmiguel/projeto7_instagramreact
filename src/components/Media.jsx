@@ -1,9 +1,9 @@
 function RenderMedia(props) {
-    const { type, source, alternative } = props;
+    const { type, source, alternative, handleHeartClick } = props;
     switch (type) {
         case "video":
             return (
-                <div className="video">
+                <div className="video" onDoubleClick={handleHeartClick}>
                     <video autoPlay muted>
                         <source src={source.mp4} />
                         <source src={source.ogv} />
@@ -11,7 +11,7 @@ function RenderMedia(props) {
                 </div>
             );
         default:
-            return <img src={source} alt={alternative} />;
+            return <img src={source} alt={alternative} onDoubleClick={handleHeartClick} />;
     }
 }
 
