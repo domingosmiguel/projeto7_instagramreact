@@ -31,15 +31,13 @@ function RenderPost(props) {
     const [save, setSave] = useState(postData.save);
     const [like, setLike] = useState(postData.like);
     const [likeCount, setLikeCount] = useState(postData.likeCount);
-    function handleHeartClick(bool) {
-        setLike(bool);
-        const teste = likeCount.slice(-1);
-        const resto = likeCount.slice(0, -1);
-        if (bool) {
-            setLikeCount(`${resto}${parseInt(teste) + 1}`);
+    function handleHeartClick() {
+        if (!like) {
+            setLikeCount(likeCount + 1);
         } else {
-            setLikeCount(`${resto}${parseInt(teste) - 1}`);
+            setLikeCount(likeCount - 1);
         }
+        setLike(!like);
     }
     return (
         <li className="post">
@@ -53,42 +51,27 @@ function RenderPost(props) {
             <RenderMedia type={postType} source={postSrc} alternative={postAlt} />
             <div className="post-icons">
                 <div className="post-icons-left">
-                    <IonIcon
-                        className={like ? "puff-in-center red-heart" : ""}
-                        icon={heart}
-                        style={{ display: like ? "" : "none" }}
-                        onClick={() => {
-                            handleHeartClick(false);
-                        }}
-                    ></IonIcon>
-                    <IonIcon
-                        icon={heartOutline}
-                        style={{ display: like ? "none" : "" }}
-                        onClick={() => {
-                            handleHeartClick(true);
-                        }}
-                    ></IonIcon>
+                    {like ? (
+                        <IonIcon
+                            className={"puff-in-center red-heart"}
+                            icon={heart}
+                            onClick={handleHeartClick}
+                        ></IonIcon>
+                    ) : (
+                        <IonIcon icon={heartOutline} onClick={handleHeartClick}></IonIcon>
+                    )}
                     <IonIcon icon={chatbubbleOutline}></IonIcon>
                     <IonIcon icon={paperPlaneOutline}></IonIcon>
                 </div>
                 <div className="post-icons-right">
-                    <IonIcon
-                        icon={bookmark}
-                        style={{ display: save ? "" : "none" }}
-                        onClick={() => {
-                            setSave(false);
-                        }}
-                    ></IonIcon>
-                    <IonIcon
-                        icon={bookmarkOutline}
-                        style={{ display: save ? "none" : "" }}
-                        onClick={() => {
-                            setSave(true);
-                        }}
-                    ></IonIcon>
+                    {save ? (
+                        <IonIcon icon={bookmark} onClick={() => setSave(!save)}></IonIcon>
+                    ) : (
+                        <IonIcon icon={bookmarkOutline} onClick={() => setSave(!save)}></IonIcon>
+                    )}
                 </div>
             </div>
-            <RenderLikes likes={likes} likeCount={likeCount} />
+            <RenderLikes likes={likes} likeCount={likeCount.toLocaleString("pt-BR")} />
             <RenderComments comments={comments} commentCount={commentCount} />
             <div className="time">{timer}</div>
             <div className="new-comment">

@@ -6,7 +6,7 @@ const postsData = [
         postType: "image",
         postSrc: "./images/foto1.PNG",
         postAlt: "post",
-        likeCount: "101.523",
+        likeCount: 101523,
         likes: [
             {
                 userImgSrc: "./images/anitta.PNG",
@@ -38,7 +38,7 @@ const postsData = [
         postType: "image",
         postSrc: "./images/gato-telefone 1.png",
         postAlt: "post",
-        likeCount: "152.985",
+        likeCount: 152985,
         likes: [
             {
                 userImgSrc: "./images/arianagrande.PNG",
@@ -62,7 +62,7 @@ const postsData = [
         postType: "video",
         postSrc: { mp4: "./images/video.mp4", ogv: "./images/video.ogv" },
         postAlt: "post",
-        likeCount: "4.624",
+        likeCount: 4624,
         likes: [
             {
                 userImgSrc: "./images/postmalone.PNG",

@@ -4,8 +4,8 @@ The objective with this project was to have a contact with ReactJS technology by
 
 ## **Exercised Contents**:
 
--   Destructuring assignment
 -   React props
+-   Destructuring assignment
 -   React Hook (useState)
 
 ## **Results**:
@@ -14,12 +14,13 @@ It is a simple project, much simpler than others we made so far, but it was real
 
 ![GIFs coming soon]()
 
-To show the result, the application was posted on [Coming soon]()! You can browse it both on pc and mobile.
+To show the result, the application was posted on [Vercel](https://instagram-react-snowy.vercel.app/)! You can browse it both on pc and mobile.
 
 ## **How To Run**:
 
 -   Clone repository
--   Open index.html in your browser
+-   Import repository from GitHub to Vercel
+-   Deploy
 
 ## **Comments**:
 
@@ -36,6 +37,7 @@ It wasn't my first project with ReactJS although it's the first time we've used 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Contact:
 

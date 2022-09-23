@@ -26,7 +26,7 @@ function User() {
         function checkUrl(string) {
             try {
                 const url = new URL(string);
-                var img = new Image();
+                const img = new Image();
                 img.src = url;
                 img.onload = () => {
                     setProfileImgLink(url);
