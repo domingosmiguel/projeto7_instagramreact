@@ -121,8 +121,8 @@ const storiesData = [
         username: "matue",
     },
     {
-        userImgSrc: "./images/neymarjr.PNG",
-        username: "neymarjr",
+        userImgSrc: "./images/paulomuzy.PNG",
+        username: "paulomuzy",
     },
     {
         userImgSrc: "./images/anitta.PNG",
@@ -143,10 +143,6 @@ const storiesData = [
     {
         userImgSrc: "./images/dojacat.PNG",
         username: "dojacat",
-    },
-    {
-        userImgSrc: "./images/paulomuzy.PNG",
-        username: "paulomuzy",
     },
     {
         userImgSrc: "./images/filiperet.PNG",
