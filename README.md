@@ -18,9 +18,25 @@ To show the result, the application was posted on [Vercel](https://instagram-rea
 
 ## **How To Run**:
 
--   Clone repository
--   Import repository from GitHub to Vercel
--   Deploy
+1. Clone this repository
+
+```
+$ git clone <url>
+```
+
+2. Install dependencies
+
+```
+npm i
+```
+
+3. Run the front-end with
+
+```
+npm start
+```
+
+4. Finally access http://localhost:3000 on a browser of your choice (if it doesn't automatically)
 
 ## **Comments**:
 
